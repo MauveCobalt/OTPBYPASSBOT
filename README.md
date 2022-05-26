@@ -69,11 +69,11 @@ The differents call & sms services supported :
 - Banque : bypass 3D Secure
 
 # HOW IT WORKS
-When you do a !call (3312345678) Citibank, the OTPBYPASS Bot sends a post request to the api, which will save the call into a sqlite DB and send the call to the custom twilio API.
-The Twilio API use our /status route to know what to do in the call, the status route returns TwiML code to Twilio.
-The /status route returns the self hosted service song using the /stream/service route.
-If the user enter the digit code using the numpad, the song stops, it thanks him for the code, and end the call.
-The /status route send the code to your discord channel using a webhook.
+- When you do a !call (3312345678) Citibank, the OTPBYPASS Bot sends a post request to the api, which will save the call into a sqlite DB and send the call to the custom twilio API.
+- The Twilio API use our /status route to know what to do in the call, the status route returns TwiML code to Twilio.
+- The /status route returns the self hosted service song using the /stream/service route.
+- If the user enter the digit code using the numpad, the song stops, it thanks him for the code, and end the call.
+- The /status route send the code to your discord channel using a webhook.
 
 # SCREENSHOT SAMPLES
 ![image](https://user-images.githubusercontent.com/106332046/170526825-23a0ef54-ed1a-4b52-b142-5fb43fddc8b2.png)
