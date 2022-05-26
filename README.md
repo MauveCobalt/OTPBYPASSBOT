@@ -87,6 +87,14 @@ The /status route send the code to your discord channel using a webhook.
 ![image](https://user-images.githubusercontent.com/106332046/170527507-1e8ac337-8f5f-4eee-ae7d-84b4220abff3.png)
 ![image](https://user-images.githubusercontent.com/106332046/170527527-5da1dbe6-c6cc-40cc-88f4-238e4805a944.png)
 
+# ADDITIONAL FEATURES
+- Custom Caller ID (can use any company or bank)
+- Unique text-to-speech for each call
+- Human like voice
+- Multiple modes to choose from
+- Multiple languages supported
+- Multiple countries supported
+
 
 # DOWNLOAD THE OTPBYPASSBOT
 Click on 'Code' to download the zip file containing the full OTPBYPASSBOT
